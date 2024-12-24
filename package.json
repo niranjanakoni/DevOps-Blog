@@ -4,7 +4,7 @@
   "description": "A DevOps blog powered by Node.js.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
