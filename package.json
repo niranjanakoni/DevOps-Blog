@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
   "start": "node app.js",
-  "build": "mkdir -p public && cp -r docs/* public/ && cp public/style.css ./public/style_copy.css"
+  "build": "mkdir -p public && cp -r docs/* public/ && echo '<!DOCTYPE html><html><head><title>DevOps Blog</title></head><body><h1>Welcome to DevOps Blog</h1></body></html>' > public/index.html"
   },
   "dependencies": {
     "express": "^4.18.2",
